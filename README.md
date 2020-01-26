@@ -1,12 +1,16 @@
 # Catalog-Product-Management
 
- A customer buy a product with 
+Users will be able to create a product. A product has parameters like Brand, Category
+and Specifications.
+Products can be viewed on a listing page with filters of Brand and Category.
 
-### Further explanation and assumptions:
-1. Request to make a ride can only be done one at a time by the Customer
-2. Authority to Accept or serve the Customer’s Request is enabled by the Driver. 
-3. Customer is also provided an option to end the ongoing ride.
-4. The Status of every ride can be identified by three states i.e Requested,Accepted and Completed.
+Further explanations and assumptions:
+
+1. Categories have a tree structure - similar to that of Amazon / Flipkart.
+2. Each product can have multiple specifications. Specification params - Key, Value &
+Unit. Eg. Key - Length, Value: 30 , Unit - cm can be a specification for a scale.
+3. Category breadcrumb should be displayed on the product page.
+4. Product, Brand and Category names must be unique.
 
 ### Prerequisites
 
