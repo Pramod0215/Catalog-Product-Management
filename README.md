@@ -70,17 +70,17 @@ psql
 ```
 To create a database for our Django project
 ```
-CREATE DATABASE cabride;
+CREATE DATABASE cms;
 
 ```
 Create a database user which we will use to connect to and interact with the database. Set the password.
 ```
-CREATE USER admin WITH PASSWORD 'admin';
+CREATE USER cmsuser WITH PASSWORD 'pa$$w0rd';
 
 ```
 Now, all we need to do is give our database user access rights to the database we created
 ```
-GRANT ALL PRIVILEGES ON DATABASE tripcontrol TO admin;
+GRANT ALL PRIVILEGES ON DATABASE CMSuser TO admin;
 
 ```
 Before running server make sure all migrations done. To exucute all migration
@@ -93,12 +93,12 @@ python3 manage.py makemigrations
 ## Overall detail
 ```
 Database Name: cabride
-Username: myprojectuser
+Username: cmsuser
 Password: pa$$word
 
 ```
 
-Then to run the server, go to the directory 'tarzen/Cab-allocation-system/cab_allocation_system/' and type the following code in terminal:
+Then to run the server, go to the directory 'tarzen/Catalog-Product-Management/Backend/cms$' and type the following code in terminal:
 
 ```
 python3 manage.py runserver
@@ -124,6 +124,11 @@ Go to '/Catalog-Produact-system/frontend' and type the following code in the ter
 "npm -v",
 
 ```
+Go to install axios for connect backend to frontend
+```
+npm install axios
+```
+
 Then to run the react server, type the code:
 ```
 npm start
