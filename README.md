@@ -34,7 +34,7 @@ psycopg2==2.7.4
 Clone the repository
 
 ```
-https://github.com/Pramod0215/Catalog-Product-Management/
+git clone https://github.com/Pramod0215/Catalog-Product-Management/
 ```
 
 Setting up your virtual environment:
@@ -51,7 +51,7 @@ source .env/bin/activate
 Once the repository is cloned and virtual environment set up, go to the directory where the requirements.txt(Catalogue-management-system/backend/) is and type the following code in your terminal:
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Database setup
@@ -92,7 +92,7 @@ python3 manage.py makemigrations
 
 ## Overall detail
 ```
-Database Name: cabride
+Database Name: cms
 Username: cmsuser
 Password: pa$$word
 
@@ -124,7 +124,7 @@ Go to '/Catalog-Produact-system/frontend' and type the following code in the ter
 "npm -v",
 
 ```
-Go to install axios for connect backend to frontend
+Go to install axios for fetch backend to data
 ```
 npm install axios
 ```
