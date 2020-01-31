@@ -133,3 +133,7 @@ Then to run the react server, type the code:
 ```
 npm start
 ```
+![alt Home Page](Screenshot from 2020-01-31 177-1-25.png)<br>
+![alt Product Page](Screenshot from 2020-01-31 17-17-37.png)<br>
+![alt Brand Page](Screenshot from 2020-01-31 17-21-08.png)<br>
+![alt Category Page](Screenshot from 2020-01-31 17-21-13.png)
